@@ -1,0 +1,14 @@
+{
+  "name": "kualitatif-coffee",
+  "version": "1.0.0",
+  "description": "Situs statis (HTML, CSS, JavaScript biasa) untuk melihat menu, menyusun pesanan, dan mengirimnya lewat WhatsApp. Tidak perlu server atau proses build.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx serve ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}

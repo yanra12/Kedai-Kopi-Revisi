@@ -1,0 +1,121 @@
+/* Daftar menu. Harga dalam rupiah (angka bulat, tanpa titik).
+   Harga di bawah ini contoh; sesuaikan dengan harga kedai.
+   temps: pilihan suhu minuman. Hilangkan untuk makanan.
+   tag: label kecil di samping nama (opsional). */
+window.MENU_CATEGORIES = [
+  { id: "kopi", label: "Kopi" },
+  { id: "non-kopi", label: "Non-kopi" },
+  { id: "croissant", label: "Croissant" },
+];
+
+window.PRODUCTS = [
+  {
+    id: "espresso",
+    category: "kopi",
+    name: "Espresso",
+    desc: "Double shot, pekat dan bersih, dengan crema tipis di atasnya.",
+    price: 18000,
+    temps: ["Panas"],
+  },
+  {
+    id: "americano",
+    category: "kopi",
+    name: "Americano",
+    desc: "Espresso dengan air, ringan dan mudah diminum sepanjang hari.",
+    price: 20000,
+    temps: ["Panas", "Dingin"],
+  },
+  {
+    id: "cafe-latte",
+    category: "kopi",
+    name: "Cafe Latte",
+    desc: "Espresso dengan susu steam yang lembut dan sedikit buih.",
+    price: 26000,
+    temps: ["Panas", "Dingin"],
+  },
+  {
+    id: "cappuccino",
+    category: "kopi",
+    name: "Cappuccino",
+    desc: "Espresso, susu, dan buih tebal dalam takaran yang seimbang.",
+    price: 26000,
+    temps: ["Panas"],
+  },
+  {
+    id: "kopi-susu-gula-aren",
+    category: "kopi",
+    name: "Kopi Susu Gula Aren",
+    desc: "Espresso, susu segar, dan gula aren. Manis yang tidak berlebihan.",
+    price: 22000,
+    temps: ["Dingin"],
+    tag: "Favorit",
+  },
+  {
+    id: "flat-white",
+    category: "kopi",
+    name: "Flat White",
+    desc: "Dua shot espresso dengan susu microfoam yang tipis dan halus.",
+    price: 28000,
+    temps: ["Panas"],
+  },
+  {
+    id: "matcha-latte",
+    category: "non-kopi",
+    name: "Matcha Latte",
+    desc: "Matcha dengan susu. Pahit tipis, hijau, dan creamy.",
+    price: 27000,
+    temps: ["Panas", "Dingin"],
+  },
+  {
+    id: "coklat",
+    category: "non-kopi",
+    name: "Coklat",
+    desc: "Coklat pekat dengan susu, tanpa espresso.",
+    price: 25000,
+    temps: ["Panas", "Dingin"],
+  },
+  {
+    id: "red-velvet-latte",
+    category: "non-kopi",
+    name: "Red Velvet Latte",
+    desc: "Red velvet dengan susu dan sedikit rasa krim keju.",
+    price: 26000,
+    temps: ["Panas", "Dingin"],
+  },
+  {
+    id: "lemon-tea",
+    category: "non-kopi",
+    name: "Lemon Tea",
+    desc: "Teh hitam dengan perasan lemon, segar dan tidak terlalu manis.",
+    price: 18000,
+    temps: ["Panas", "Dingin"],
+  },
+  {
+    id: "plain-croissant",
+    category: "croissant",
+    name: "Plain Croissant",
+    desc: "Berlapis, renyah di luar, lembut di dalam. Cocok untuk kopi hitam.",
+    price: 20000,
+  },
+  {
+    id: "choco-croissant",
+    category: "croissant",
+    name: "Choco Croissant",
+    desc: "Croissant dengan isian coklat leleh di tengahnya.",
+    price: 26000,
+  },
+  {
+    id: "almond-croissant",
+    category: "croissant",
+    name: "Almond Croissant",
+    desc: "Isian krim almond dan taburan irisan almond panggang.",
+    price: 28000,
+  },
+  {
+    id: "cheese-croissant",
+    category: "croissant",
+    name: "Cheese Croissant",
+    desc: "Croissant gurih dengan keju yang dipanggang di atasnya.",
+    price: 26000,
+  },
+];
